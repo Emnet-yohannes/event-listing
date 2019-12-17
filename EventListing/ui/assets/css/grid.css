@@ -1,0 +1,62 @@
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+    
+/*    trial...........................................*/
+
+.grid-cont{
+/*    height: 35em;*/
+    margin:6em;
+    display: grid;
+      grid-gap: 10px;
+/*    grid-template-columns: 33% 33%  33%;*/
+/*     grid-template-rows: 50% 50%;*/
+    background-color: #2196F3;   /*green*/
+    
+}   
+.q1{
+    background-image:url(../img/profile.jpg);
+    
+} 
+.r1{
+    background-image:url(../img/profile.jpg);
+/*    background-attachment:inherit;*/
+     background-repeat: no-repeat;
+}
+.grid-cont > div {
+    background-attachment: fixed;
+    background-size: cover;
+   
+/*    height: 100%;*/
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+/*  padding: 20px;*/
+  font-size: 1.5rem;
+}
+.q1{
+/*     grid-row: 1 / 3;*/
+}
+.q2{
+/*    height:10vh;*/
+    grid-column: 1/4;            
+    
+}
+
+.row{
+    grid-gap: 5px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    display: inline-grid;
+}
+.row-items{
+    background-color: rgba(255, 25, 25, 0.9);  /*red*/
+}
+    
+/*carts..........................*/
+
+.items{
+    display: grid;
+}

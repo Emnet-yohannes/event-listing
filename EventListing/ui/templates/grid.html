@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+
+        <link rel="stylesheet" href="/assets/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="/assets/css/grid.css" />
+    </head>
+    
+    <body>
+        <div class="main">
+          
+
+            <div class="grid-cont">
+                <div class="q2 row">
+                {{range .}}
+                    <div class="row-items">{{.EID}}</div>
+                    <div class="row-items">{{.Name}}</div>
+                    <div class="row-items"> {{.Details}}</div>
+                    <div class="row-items">{{.Profile}} </div>
+                    <div class="row-items"></div>
+                    <div class="row-items"></div>
+                    <div class="row-items"></div>
+                {{end}}
+                </div>
+
+                <div class="q2 row">
+                    <div class="row-items r1">1</div>
+                    <div class="row-items">2</div>
+                    <div class="row-items">3</div>
+                    <div class="row-items">4</div>
+                    <div class="row-items">5</div>
+                    <div class="row-items">6</div>
+                    <div class="row-items">7</div>
+                </div>
+
+                
+         
+
+        </div>
+        <script type="text/javascript" src="/assets/js/jquery-3.4.1.min.js"></script>
+        <script src="/assets/js/bootstrap.min.js"></script>
+    </body>
+</html>

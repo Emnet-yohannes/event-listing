@@ -1,0 +1,37 @@
+.head-container{
+    height:25em; 
+padding-bottom: 5em;
+/*    background-color: gray;*/
+}
+
+.carsoule{
+    height:inherit;
+/*    width:100%;*/
+        overflow:inherit;
+    width: 80%;
+    justify-content: center;
+    padding-left: 5%;
+/*    position: absolute;*/
+/*    z-index: 1; */
+/*    width: 100%;*/
+    
+}
+.carousel-item img{
+    height:25em;
+}
+.filter{
+    position:absolute;
+    right: 80px;
+    bottom: 0;
+    width: 10em;
+    height: 10em;
+    
+    
+}
+
+
+@media (max-width: 767.98px) { 
+    .search{
+        width: 90%!important;
+    }
+}
